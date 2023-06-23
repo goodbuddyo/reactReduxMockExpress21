@@ -1,8 +1,8 @@
 # reactReduxMockExpress21
 
-# React and Redux app built from scratch, initially using a mock api based on Express and json-server. 
+ React and Redux app built from scratch, initially using a mock api based on Express and json-server. 
 
-# This app is based on an excellent walk through tutorial by Pluralsight's talented instructor Cory House (http://www.pluralsight.com/author/cory-house) on Pluralsight
+ This app is based on an excellent walk through tutorial by Pluralsight's talented instructor Cory House (http://www.pluralsight.com/author/cory-house) on Pluralsight
 
 ## Get Started
 
