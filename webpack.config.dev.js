@@ -1,16 +1,16 @@
-const webpack = require("webpack");
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+//const webpack = require("webpack");
+const path=require("path");
+const HtmlWebpackPlugin=require("html-webpack-plugin");
 
-process.env.NODE_ENV = "development";
+process.env.NODE_ENV="development";
 
-module.exports = {
+module.exports={
   mode: "development",
   target: "web",
   devtool: "cheap-module-source-map",
   entry: "./src/index",
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname,"build"),
     publicPath: "/",
     filename: "bundle.js"
   },
@@ -19,7 +19,7 @@ module.exports = {
     overlay: true,
     historyApiFallback: true,
     disableHostCheck: true,
-    headers: { "Access-Control-Allow-Origin": "*" },
+    headers: {"Access-Control-Allow-Origin": "*"},
     https: false
   },
   plugins: [
@@ -33,11 +33,11 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ["babel-loader", "eslint-loader"]
+        use: ["babel-loader","eslint-loader"]
       },
       {
         test: /(\.css)$/,
-        use: ["style-loader", "css-loader"]
+        use: ["style-loader","css-loader"]
       }
     ]
   }
