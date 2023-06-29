@@ -1,80 +1,80 @@
 const topics=[
   {
     id: 1,
-    title: "Securing React Apps with Auth0",
-    slug: "react-auth0-authentication-security",
+    title: "Top 10 Benefits of Website Accessibility",
+    slug: "top-10-benefits-of-website-accessibility",
     authorId: 1,
-    category: "JavaScript"
+    category: "Web Accessibility"
   },
   {
     id: 2,
-    title: "React: The Big Picture",
-    slug: "react-big-picture",
+    title: "WCAG Checklist",
+    slug: "wcag-checklist",
     authorId: 1,
-    category: "JavaScript"
+    category: "Web Accessibility"
   },
   {
     id: 3,
-    title: "Creating Reusable React Components",
-    slug: "react-creating-reusable-components",
+    title: "7 Benefits of Website Usability Testing",
+    slug: "7-benefits-of-website-usability-testing",
     authorId: 1,
-    category: "JavaScript"
+    category: "Usability"
   },
   {
     id: 4,
-    title: "Building a JavaScript Development Environment",
-    slug: "javascript-development-environment",
+    title: "The principles of website usability",
+    slug: "the-principles-of-website-usability",
     authorId: 1,
-    category: "JavaScript"
+    category: "Usability"
   },
   {
     id: 5,
-    title: "Building Applications with React and Redux",
-    slug: "react-redux-react-router-es6",
+    title: "10 website housekeeping tasks to do during a quiet period",
+    slug: "10-website-housekeeping-tasks-to-do-during-a-quiet-period",
     authorId: 1,
-    category: "JavaScript"
+    category: "Housekeeping"
   },
   {
     id: 6,
-    title: "Building Applications in React and Flux",
-    slug: "react-flux-building-applications",
+    title: "SEO Housekeeping Tasks You Should Carry Out Regularly",
+    slug: "seo-housekeeping-tasks-you-should-carry-out-regularly",
     authorId: 1,
-    category: "JavaScript"
+    category: "SEO"
   },
   {
     id: 7,
-    title: "Clean Code: Writing Code for Humans",
-    slug: "writing-clean-code-humans",
+    title: "10 Key Benefits Of SEO For Your Business",
+    slug: "10-key-benefits-of-seo-For-your-business",
     authorId: 1,
-    category: "Software Practices"
+    category: "SEO"
   },
   {
     id: 8,
-    title: "Architecting Applications for the Real World",
-    slug: "architecting-applications-dotnet",
+    title: "Cybersecurity Tools",
+    slug: "cybersecurity-tools",
     authorId: 1,
-    category: "Software Architecture"
+    category: "Cyber Security"
   },
   {
     id: 9,
-    title: "Becoming an Outlier: Reprogramming the Developer Mind",
-    slug: "career-reboot-for-developer-mind",
+    title: "20 free cybersecurity tools you should know about",
+    slug: "20-free-cybersecurity-tools-you-should-know-about",
     authorId: 1,
-    category: "Career"
+    category: "Cyber Security"
   },
   {
     id: 10,
-    title: "Web Component Fundamentals",
-    slug: "web-components-shadow-dom",
+    title: "7 best website performance test tools in 2023",
+    slug: "7-best-website-performance-test-tools-in-2023",
     authorId: 1,
-    category: "HTML5"
+    category: "Performance"
   }
 ];
 
 const authors=[
-  {id: 1,name: "Cory House"},
-  {id: 2,name: "Scott Allen"},
-  {id: 3,name: "Dan Wahlin"}
+  {id: 1,name: "John Doe"},
+  {id: 2,name: "Ann Onymous"},
+  {id: 3,name: "Silence Dogood"}
 ];
 
 const newTopic={

@@ -17,12 +17,18 @@ const TopicList=({topics}) => (
         return (
           <tr key={topic.id}>
             <td>
-              <a
+              {/*<a
                 className="btn btn-light"
                 href={"http://pluralsight.com/topics/"+topic.slug}
               >
                 Watch
-              </a>
+              </a>*/}
+              {/*<Link to={"/topic/"+topic.slug}
+                className="btn btn-light"
+
+              >
+                Watch
+              </Link>*/}
             </td>
             <td>
               <Link to={"/topic/"+topic.slug}>{topic.title}</Link>
